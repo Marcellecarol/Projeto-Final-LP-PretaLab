@@ -1,4 +1,4 @@
-# Projeto final do módulo de lógica de programação
+# Projeto final do módulo de lógica de programação - Feito com ajuda da Professora Luana Maria e a Monitora Cailane Gois
 
 Bem vinda ao repositório do projeto final do módulo de lógica de programação.
 
