@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Projeto Final</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
       <div id="content">
         <section id="projeto1">
           <h2>Calculadora Básica</h2>
-
+      
           <input class="inputCalc" id="numero1Soma" type="number" required />
           <input class="inputCalc" id="numero2Soma" type="number" required />
           <button class="buttonCalc" onclick="somar()">SOMAR</button>
@@ -36,9 +36,7 @@
 
           <input class="inputCalc" id="numero1Mult" type="number" required />
           <input class="inputCalc" id="numero2Mult" type="number" required />
-          <button class="buttonCalc" onclick="multiplicar()">
-            MULTIPLICAR
-          </button>
+          <button class="buttonCalc" onclick="multiplicar()">MULTIPLICAR</button>
           <p class="resultado">Resultado: <b id="resultadoMult"></b></p>
 
           <input class="inputCalc" id="numero1Div" type="number" required />
@@ -49,7 +47,7 @@
 
         <section id="projeto2">
           <h2>Calculadora de Médias</h2>
-
+          
           <div id="contentCalcMedias">
             <div id="notas">
               <div class="nota">
@@ -73,17 +71,14 @@
               </div>
             </div>
 
-            <button id="btnSituacao" onclick="calcularMedia()">
-              Qual a situação da estudante?
-            </button>
-
-            <p id="situacaoAluno" />
+            <button id="btnSituacao" onclick="calcularMedia()">Qual a situação da estudante?</button>
+            <p id="situacaoAluno"></p>
           </div>
         </section>
       </div>
     </main>
 
-    <script type="text/javascript" src="/js/calculadora.js"></script>
-    <script type="text/javascript" src="/js/media.js"></script>
+    <script type="text/javascript" src="js/calculadora.js"></script>
+    <script type="text/javascript" src="js/media.js"></script>
   </body>
 </html>
